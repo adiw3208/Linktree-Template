@@ -8,6 +8,7 @@ import {
   faInstagram,
   faTiktok,
   faTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
@@ -72,6 +73,19 @@ function App() {
             </li>
             <li className="my-3 lg:my-6 lg:-mx-3">
               <a
+                href="https://saweria.co/Gamersbed"
+                className="flex items-center justify-between bg-white shadow-smInvFixed px-8 py-4 rounded-xl hover:shadow-smFixed hover:scale-105 duration-500"
+                target="blank"
+              >
+                <FontAwesomeIcon
+                  icon={faSackDollar}
+                  className="text-4xl text-yellow-900"
+                />
+                <span className="text-xl font-semibold ">Saweria</span>
+              </a>
+            </li>
+            <li className="my-3 lg:my-6 lg:-mx-3">
+              <a
                 href="https://www.tiktok.com/@gamersbed?lang=en"
                 className="flex items-center justify-between bg-white shadow-smInvFixed px-8 py-4 rounded-xl hover:shadow-smFixed hover:scale-105 duration-500"
                 target="blank"
@@ -98,15 +112,15 @@ function App() {
             </li>
             <li className="my-3 lg:my-6 lg:-mx-3">
               <a
-                href="https://saweria.co/Gamersbed"
+                href="https://www.youtube.com/@gamersbedd"
                 className="flex items-center justify-between bg-white shadow-smInvFixed px-8 py-4 rounded-xl hover:shadow-smFixed hover:scale-105 duration-500"
                 target="blank"
               >
                 <FontAwesomeIcon
-                  icon={faSackDollar}
-                  className="text-4xl text-yellow-900"
+                  icon={faYoutube}
+                  className="text-4xl text-red-500"
                 />
-                <span className="text-xl font-semibold ">Saweria</span>
+                <span className="text-xl font-semibold">Youtube</span>
               </a>
             </li>
           </ul>
