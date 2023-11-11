@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <section>
-        <div className=" flex-auto w-full relative">
+        <div className="container flex-auto w-full relative">
           <img
             src={Logo1}
             alt="gamersbed"
@@ -23,7 +23,7 @@ function App() {
           px-8 py-2 mx-auto my-16 shadow-smInvFixed rounded-lg hover:scale-105 duration-500 border-secondary border-2 z-50 relative"
           />
 
-          <ul className="bg-primary px-4 pt-16 pb-1 mb-16 mx-auto w-full lg:w-1/2 lg:px-8 lg:pb-2 mt-20 shadow-smFixed rounded-xl relative">
+          <ul className="bg-primary px-4 pt-16 pb-1 mx-auto w-full lg:w-1/2 lg:px-8 lg:pb-2 lg:mb-16 mt-20 shadow-smFixed rounded-xl relative">
             <li className="absolute -top-12 right-1/2 translate-x-1/2 hover:scale-105 duration-500">
               <a href="https://discord.com/invite/grNykqfn7jz" target="blank">
                 <FontAwesomeIcon
